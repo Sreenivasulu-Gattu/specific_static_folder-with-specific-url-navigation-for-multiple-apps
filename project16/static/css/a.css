@@ -1,0 +1,13 @@
+h1
+{
+    color: red;
+    background-color: yellowgreen;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+img
+{
+    height: 400px;
+    width: 550px;
+}

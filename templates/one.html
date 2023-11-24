@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE</title>
+    <link rel="stylesheet" href="{% static 'css/one.css' %}">
+</head>
+<body>
+    <center>
+        <h1>This is ONE html from numbers application</h1>
+        <img src="{% static 'images/one.jpeg' %}" alt=""><br>
+        <a href="{% url 'alpha:a' %}"><h1>Link to A alphabet</h1></a>
+    </center>
+</body>
+</html>
